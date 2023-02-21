@@ -1,0 +1,12 @@
+[WP STAGING Shutdown Function][E_DEPRECATED][2023-02-21 07:58:47] str_replace(): Passing null to parameter #2 ($replace) of type array|string is deprecated - File: /Users/chris/Local Sites/sfproject/app/public/wp-content/plugins/wp-staging/Framework/Utils/WpDefaultDirectories.php Line: 66 | Is it Fatal Error? No | Is it Thrown by WP STAGING? Yes
+[WP STAGING Manual Logging][info][2023-02-21 07:59:25] Starting from a clean state...
+[WP STAGING Manual Logging][info][2023-02-21 07:59:25] Sending request to: http://sfproject.local/wp-admin/admin-ajax.php?action=wpstg_ajax_test_action&_ajax_nonce=0c1424a87f
+[WP STAGING Manual Logging][info][2023-02-21 07:59:25] Running updateAjaxTestOption
+[WP STAGING Manual Logging][info][2023-02-21 07:59:25] Complete updateAjaxTestOption. New value: y
+[WP STAGING Manual Logging][info][2023-02-21 07:59:25] {"headers":[],"body":"","response":{"code":false,"message":false},"cookies":[],"http_response":null}
+[WP STAGING Manual Logging][info][2023-02-21 07:59:25] runAjaxFeatureTest waited 0.0 seconds...
+[WP STAGING Manual Logging][info][2023-02-21 07:59:26] Fetched is equal to: y
+[WP STAGING Manual Logging][info][2023-02-21 07:59:26] Fetched is equal to (get_option): y
+[WP STAGING Manual Logging][info][2023-02-21 07:59:26] runAjaxFeatureTest worked
+[WP STAGING Manual Logging][info][2023-02-21 07:59:26] Running Queue Maintenance.
+[WP STAGING Manual Logging][info][2023-02-21 07:59:26] Removed 0 actions that were last updated before 2023-02-14 07:59:26.
